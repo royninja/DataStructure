@@ -10,9 +10,9 @@ public class Convert_an_Array_Into_a2D_Array_With_Conditions_2610 {
     public List<List<Integer>> findMatrix(int[] nums) {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
         HashSet<Integer> hashSet = new HashSet<>();
-        for (int i = 0; i < nums.length; i++) {
-            hashMap.put(nums[i],hashMap.getOrDefault(nums[i],0)+1);
-            hashSet.add(nums[i]);
+        for (int num : nums) {
+            hashMap.put(num, hashMap.getOrDefault(num, 0) + 1);
+            hashSet.add(num);
         }
         List<List<Integer>> finalList = new ArrayList<>();
 
