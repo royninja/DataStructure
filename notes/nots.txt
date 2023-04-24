@@ -1,0 +1,3 @@
+hi
+needed to check hashmap, tree set, hashset, set
+& java collection frameworks
